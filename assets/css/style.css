@@ -1,0 +1,67 @@
+*{box-sizing:border-box;}
+
+img{height:220px;}
+
+
+
+.header{font-family:Georgia, Times, 'Times New Roman', serif;
+    color:teal;}
+
+.boxHeader{font-family:Georgia, Times, 'Times New Roman', serif;
+           color:teal;
+           border-bottom:2px solid #777777;
+           margin-top:30px;}
+
+.paraStuff{color:#777777;
+           padding-left:35px;}
+.paraStuffBottom{color:#777777;}
+
+.picBox{margin-top:30px;}
+
+.picBox h4{color:#ebebeb;
+           background:teal;
+           position:relative;
+           font-family:Arial, Helvetica, sans-serif;
+           bottom:35px;
+           z-index:1;
+           text-align:center;}
+
+.contact{color:teal;}
+
+
+.footer{text-align:center;
+        color:#ebebeb;
+        background:#666666;
+        border-top:5px solid teal;}
+
+        label,
+        input[type=text],
+        input[type=email],
+        textarea {
+          display: block;
+          width: 100%;
+        }
+        
+        input[type=text],
+        input[type=email],
+        textarea {
+          height: 35px;
+          padding: 0 10px;
+          font-size: 14px;
+          border: 1px solid #ddd;
+        }
+        
+        textarea {
+          height: 200px;
+        }
+        
+        input[type=submit] {
+          padding: 10px 30px;
+          font-size: 18px;
+          color: #fff;
+          cursor: pointer;
+          background: #4aaaa5;
+          border: 0 none;
+        }
+
+div section{margin-top:25px;}
